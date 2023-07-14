@@ -142,3 +142,32 @@ a {
     justify-content: flex-end;
     color: 
 }
+
+/* fifth section */
+
+.cta-container {
+    margin: 0px 300px;
+    background-color: #3882f6;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.cta-row {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+.left-cta {
+    font-size: 24px;
+}
+
+.cta-row button {
+    padding: 10px 50px;
+    background-color: #3882f6;
+    color: white;
+    font-size: 24px;
+    border: 3px solid white;
+    border-radius: 10px;
+
+}
