@@ -66,6 +66,16 @@ a {
     font-size: 24px;
 }
 
+.left-section button {
+    padding: 10px 30px;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    font-size: 16px;
+    font-weight: bolder;
+    border-radius: 10px;
+    border: none;
+}
+
 .right-section img {
     max-width: 550px;
 }
