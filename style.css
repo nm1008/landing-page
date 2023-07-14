@@ -5,6 +5,8 @@
     font-family: sans-serif;
 }
 
+/* first section */
+
 .container {
     background-color: #1f2937;
     padding: 20px;
@@ -38,4 +40,32 @@ li {
 a {
     text-decoration: none;
     color: white;
+}
+
+/* second section */
+
+.second-section {
+    background-color: #1f2937;
+}
+
+.row-section {
+    margin: 0px 300px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.left-section div {
+    color: #e5e7eb;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.left-section p {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.right-section img {
+    max-width: 550px;
 }
