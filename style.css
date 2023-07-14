@@ -9,7 +9,7 @@
 
 .container {
     background-color: #1f2937;
-    padding: 20px;
+    padding: 20px 0px 100px 0px;
     color: white;
 }
 
@@ -46,6 +46,8 @@ a {
 
 .second-section {
     background-color: #1f2937;
+    padding-bottom: 100px;
+    
 }
 
 .row-section {
@@ -53,17 +55,22 @@ a {
     display: flex;
     justify-content: space-between;
     gap: 30px;
+    align-items: center;
+   
 }
 
 .left-section div {
     color: #e5e7eb;
     font-size: 48px;
     font-weight: bolder;
+    padding-bottom: 10px;
 }
 
 .left-section p {
     color: #f9faf8;
     font-size: 24px;
+    padding-bottom: 10px;
+    
 }
 
 .left-section button {
@@ -78,4 +85,5 @@ a {
 
 .right-section img {
     max-width: 550px;
+    border-radius: 10px;
 }
